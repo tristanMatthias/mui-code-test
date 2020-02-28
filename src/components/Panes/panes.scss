@@ -1,0 +1,21 @@
+.panes {
+  --pane-padding: 20px;
+  --pane-handle: #eee;
+  --pane-handle-hover: #ccc;
+
+  display: grid;
+
+  & > *:not(.handle):not(.panes) {
+    height: 100%;
+    padding: var(--pane-padding);
+    overflow-y: auto;
+  }
+
+  .handle {
+    background: var(--pane-handle);
+    &:hover {
+      background: var(--pane-handle-hover);
+      cursor: grab;
+    }
+  }
+}
