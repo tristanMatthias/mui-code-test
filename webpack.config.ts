@@ -16,7 +16,7 @@ export default (_env: any, options: { mode: string }) => {
     ],
     output: {
       filename: 'pane.js',
-      publicPath: '/admin',
+      publicPath: '/',
       path: DIST
     },
     devtool: IS_PROD ? false : 'source-map',
