@@ -5,7 +5,7 @@
 
 This is a code test for [Material UI](https://material-ui.com/). The [task](https://gist.github.com/oliviertassinari/38e50066df8894a7c4e0b46b39b42cb8) was to create a React component for resizable panes.
 
-[LIVE DEMO](mui-panes.netlify.com)
+[LIVE DEMO](https://mui-panes.netlify.com)
 
 # Usage
 
